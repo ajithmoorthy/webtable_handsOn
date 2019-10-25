@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [mysuite]" parallel="tests">
+  <test thread-count="2" name="Test validate CHROMEcom.atmecs.sample.testscripts.Home(failed)" parallel="tests">
+    <parameter name="browser" value="MY,CHROME"/>
+    <classes>
+      <class name="com.atmecs.sample.testscripts.Home">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endDriver"/>
+          <include name="verifytable"/>
+          <include name="endReport"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.sample.testscripts.Home -->
+    </classes>
+  </test> <!-- Test validate CHROMEcom.atmecs.sample.testscripts.Home(failed) -->
+</suite> <!-- Failed suite [mysuite] -->
